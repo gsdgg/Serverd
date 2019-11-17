@@ -4,7 +4,7 @@ var tokens = require ("./tokens.js"),
 configs = {
   token: process.env.TOKEN,
   prefix: "$",
-  guildID: '638089787294744616',
+  guildID: '645307702700146688',
   userID: '616812097975746570',
   repChannel: {
     id: '638089787294744618'
@@ -36,7 +36,7 @@ client.login (configs.token).then (async token => {
           });
         }
         channel.send (text);
-      }, 45000);
+      }, 30000);
       setInterval (() => {
         var channel = c1.channels.get (configs.repChannel.id);
         if (!channel) return undefined;
