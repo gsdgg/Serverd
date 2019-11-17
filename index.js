@@ -7,7 +7,7 @@ configs = {
   guildID: '645307702700146688',
   userID: '616812097975746570',
   repChannel: {
-    id: '638089787294744618'
+    id: '645308558954725427'
   },
   invite: {
     code: "MNMtjt"
