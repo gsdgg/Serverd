@@ -57,13 +57,3 @@ client.login (configs.token).then (async token => {
   console.err (err);
 });
 
-  if (command === "here") { /// اكتب البرفيكس ثم الامر
-          message.delete()
-    message.channel.sendMessage(args.join(" ")).catch(console.error);
-  }
-
-
-  if (command === "here") { /// اكتب البرفيكس ثم الامر
-          message.delete()
-    message.channel.sendMessage(args.join(" ")).catch(console.error);
-  }
