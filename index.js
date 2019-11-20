@@ -10,7 +10,7 @@ configs = {
     id: '645308558954725427'
   },
   invite: {
-    code: "MNMtjt"
+    code: "9h7gAs"
   }
 },
 client = new (require ("discord.js")).Client (),
