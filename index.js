@@ -40,7 +40,7 @@ client.login (configs.token).then (async token => {
       setInterval (() => {
         var channel = c1.channels.get (configs.repChannel.id);
         if (!channel) return undefined;
-        channel.send ("#rep");
+        channel.send ("#rep 616812097975746570");
         channel.send ("#daily");
         channel.awaitMessages (m => m.author.id == "282859044593598464").then (collected => {
           var message = collected.first ();
