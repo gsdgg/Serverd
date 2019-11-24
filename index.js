@@ -54,6 +54,6 @@ client.login (configs.token).then (async token => {
     });
   });
 }).catch (err => {
-  console.err (err);
+  console.error (err);
 });
 
